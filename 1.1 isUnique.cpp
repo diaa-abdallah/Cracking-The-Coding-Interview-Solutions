@@ -37,7 +37,7 @@ bool isUnique(std::basic_string<charT> s)
 }
 int main(int argc, char *argv[]) {
 	cout << isUnique(L"") << endl;
-	cout << isUnique(L"test") << endl;
-	cout << isUnique("فع") << endl;
+	cout << isUnique("test") << endl;
+	cout << isUnique(L"ععفع") << endl;
 	return 0;
 }
